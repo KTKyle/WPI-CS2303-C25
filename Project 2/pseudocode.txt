@@ -1,0 +1,12 @@
+analysis_functions.c
+    - create a function that can read data from the input file and store all relevant data such as: 
+        * wins obtained for each team
+        * total points scored for each team at that specific meet
+    - wins would have to be based on which team scored more points compared to the other team
+    - a draw between both teams would result in both teams getting a win 
+
+    - create a function that finds the best team of that given year
+    - some form of embedded for loops to sift through the 2d array 
+    - using the wins and points arrays initalized in the previous function, figure out which team was better than the other
+    
+    - create a function that deals with the formatting of the answer to the terminal and the output file using all the data we've collected so far
