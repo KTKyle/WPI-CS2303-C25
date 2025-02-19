@@ -1,0 +1,28 @@
+analyze_team.c
+    main(argc, argv)
+        - checks if the user has enough command line arguements and prints a custom error message if user doesn't have enough or too many
+        - parses through command line arguements and defines variables for clarity:
+            argv[1] = oldDataFile ("oldData.txt") // the first command line argument will be the old data
+            argv[2] = newDataFile ("newData.txt") // the second command line argument will be the new data
+            argv[3] = outputFile ("outName.txt") // third command line argument will be the output file 
+            atoi(argv[4]) = numStats  // fourth commmand line argument will be the number of stat columns we need to take
+            atoi(argv[5]) = numPlayers // fifth command line argument is the number of players on the team
+        - dynamically initialize memory for each player on the team 
+        - call the functions from team_member.c 
+
+team_member.h 
+    - This will have the struct for what we define as a TeamMember, every TeamMember will be comprised of:
+        int ID; // Team member #
+        char lastName[50]; //Team member last name
+        char firstName[50]; // Team member first name
+        float* memberData; // Will point to an array of data for the team member
+    - Define the functions created by team_member.c and used in analyze_team.c 
+
+team_member.c 
+    - Need a function to read file from the first command line input file and store that 
+        Will most likely be stored in an array of sorts
+    - Need another function to handle adding new data into the old data 
+    - Need a function to print the values we've accumulated
+
+    **(This was added after working on the project for a bit)**:
+    - Need a function to deallocate the memory we've allocated for all the players 
