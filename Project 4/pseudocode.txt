@@ -1,0 +1,21 @@
+Player.h 
+    - need to define player class
+    - contain the prototypes for Player.cpp 
+
+Player.cpp
+    - A constructor for creating a player
+
+    Dealing with the Player class:
+    - A function to read the data from the inputted file and store it in memberData (part of the player class)
+    - A function to read the updated data and combine it with the temporary array to create a new set of data
+    - A function to return the new data with the old and updated data as one
+    - A function to set the values of all the member variables
+
+    Dealing with the command line arguments:
+    - A function to load the players data from the initial file
+    - A function to update the players data from the update file
+    - A function to print the data from the file
+
+analyze_team.cpp
+    - Checks for the correct amount of command line arguments 
+    - Calls on the Player.cpp functions to parse through and print out the new data 
