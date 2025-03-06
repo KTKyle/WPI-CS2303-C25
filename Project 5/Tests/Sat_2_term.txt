@@ -1,0 +1,7 @@
+Welcome to Gompei's Coffee Shop!
+------ # of Baristas: 2 ------
+11 customers are waiting for their order.
+188 customers have been served.
+The average wait time was 6.37 minutes.
+Barista 0 was idle 2.33% of the time.
+Barista 1 was idle 3.67% of the time.
