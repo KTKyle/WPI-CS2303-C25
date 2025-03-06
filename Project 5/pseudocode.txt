@@ -1,0 +1,13 @@
+Barista.cpp
+    need to implement the functions from the Barista.h file
+
+myShop.cpp
+    main:
+        - checks for the correct amount of command line arguments
+        - initialize command line arguments
+        - opens the file and initializes the queue
+        - creates a vector of baristas working
+        - creates an empty vector to hold orders the baristas have completed
+        - opens the input file and initializes the data into the queue of orders 
+        - checks the each item in the vector of orders against the cases for baristas to calculate the time they are idle and to move the orders into the completed item vector
+        - prints out all data in a format
